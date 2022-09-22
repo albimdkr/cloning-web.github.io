@@ -2,14 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Roboto&display=swap');
 
 
-/* 
-
-font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
-
-*/
-
 /* html */
 html {
 	position: relative;
@@ -28,7 +20,7 @@ body {
 /* Section - Welcome  */
 #welcome {
 	height: 100px;
-	background-image: url('/img/background.jpg');
+	background-image: url('img/background.jpg');
 	background-attachment: fixed; 
 	background-size: cover;
 	background-position: 0px -50px;
@@ -152,7 +144,7 @@ body {
 
 /* Section : Number hmi */
 #number-hmi {
-	background-image: url('/img/background.jpg');
+	background-image: url('img/background.jpg');
 	background-attachment: fixed; 
 	background-size: cover;
 	background-position: 0px -20px;
@@ -215,7 +207,7 @@ body {
 
 /* Section : footer */
 #footer {
-	background-image: url('/img/background.jpg');
+	background-image: url('img/background.jpg');
 	background-attachment: fixed; 
 	background-size: cover;
 	background-position: 0px 0px;
@@ -237,7 +229,7 @@ body {
 /* Tab-Lap */
 @media screen and (max-width: 767px) and (max-width: 768px) {
 	#welcome {
-		background-image: url('/img/background.jpg');
+		background-image: url('img/background.jpg');
 		background-size: cover;
 		background-position: 0px -30px;
 		color: #eaeaea;
