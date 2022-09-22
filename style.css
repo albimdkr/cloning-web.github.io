@@ -1,0 +1,307 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Roboto&display=swap');
+
+
+/* 
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+
+/* html */
+/* html {
+	position: relative;
+} */
+/* html : end */
+
+
+/* body */
+body {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+/* body : end */
+
+
+/* Section - Welcome  */
+#welcome {
+	height: 100px;
+	background-image: url('/asset/img/background.jpg');
+	background-attachment: fixed; 
+	background-size: cover;
+	background-position: 0px -50px;
+	color: #eaeaea;
+	overflow: hidden;
+}
+
+#h1-welcome {
+	font-weight: bolder;
+	font-size: 42px;
+	font-family: 'Montserrat';
+}
+
+.h2-welcome {
+	font-size: 24;
+	font-family: 'Open sans';
+	line-height: 3;
+}
+
+.p-welcome {
+	margin: 0px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hr-welcome {
+	line-height: 2;
+	opacity: 100;
+	width: 60px;
+	border-top: 3px solid #ffff;
+}
+
+.img-circle {
+    margin: center;
+    width: 50%;
+}
+/* Section - Welcome : end  */
+
+
+/* Section - About */
+#about {
+	margin: 50px;
+	text-align: center;
+}
+
+#div-hr-about {
+	display: flex;
+	justify-content: center;
+}
+
+.hr-about {
+	opacity: 100;
+	width: 70px;
+	border-top: 3px solid #25502d;
+}
+
+#about-flex{
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+}
+
+.about-paragraf {
+    line-height: 2;
+}
+
+.hmi-logo-about {
+    margin: center;
+    text-align: center;
+    width: 250px;
+}
+
+.text-ketum-about {
+    text-align: center;
+	padding: 20px;
+}
+
+.lafrane-pane {
+	padding: 20px;
+    width: 190px;
+}
+/* Section - About : end */
+
+
+/* Section - Sekilas  */
+#sekilas {
+	margin: 0px;
+    background-color: #EFFAF0;
+}
+
+#div-hr-sekilas {
+	display: flex;
+	justify-content: center;
+}
+
+.hr-sekilas {
+	opacity: 100;
+	width: 70px;
+	border-top: 3px solid #25502d;
+}
+
+
+.hmi-logo-ketum-sekilas {
+	margin: center;
+    width: 72%;
+}
+
+/* .text-ketum-sekilas {
+	margin: auto;
+} */
+
+.sekilas-paragraf {
+	font-size: 22px;
+    text-align:left;
+}
+
+.span1-sekilas, .span2-sekilas, .span3-sekilas {
+    font-size: small;
+}
+/* Section - Sekilas : end  */
+
+
+/* Section : Number hmi */
+#number-hmi {
+	background-image: url('/asset/img/background.jpg');
+	background-attachment: fixed; 
+	background-size: cover;
+	background-position: 0px -20px;
+	color: #eaeaea;
+	overflow: hidden;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-number {
+	font-size: 55px;
+}
+
+.text-content {
+	font-size: 20px;
+}
+/* Section : Number hmi : end */
+
+/* Section : artikel */
+#artikel-terbaru {
+	margin: 50px;
+}
+
+#div-hr-artikel {
+	display: flex;
+	justify-content: center;
+}
+
+.hr-artikel {
+	opacity: 100;
+	width: 70px;
+	border-top: 3px solid #25502d;
+}
+/* Section : artikel : end */
+
+/* Section : gallery */
+#gallery {
+	background-color: #EFFAF0;
+}
+
+#div-hr-gallery {
+	display: flex;
+	justify-content: center;
+}
+
+.hr-gallery {
+	opacity: 100;
+	width: 70px;
+	border-top: 3px solid #25502d;
+}
+
+.carousel-item-active {
+	margin: 0;
+}
+
+.spacer {
+	height: 20px;
+}
+/* Section : gallery : end */
+
+
+/* Section : footer */
+#footer {
+	background-image: url('/asset/img/background.jpg');
+	background-attachment: fixed; 
+	background-size: cover;
+	background-position: 0px 0px;
+	color: #eaeaea;
+	overflow: hidden;
+}
+
+/* #h3-footer {
+	display: flex;
+	text-align: center;
+} */
+
+.action-hmi {
+	width: 50%;
+	margin-left: 20%;
+}
+/* Section : footer : end */
+
+/* Tab-Lap */
+@media screen and (max-width: 767px) and (max-width: 768px) {
+	#welcome {
+		background-image: url('/asset/img/background.jpg');
+		background-size: cover;
+		background-position: 0px -30px;
+		color: #eaeaea;
+		overflow: hidden;
+	}
+
+	.text-content {
+		font-size: 10px;
+	}
+
+	.p-welcome {
+		font-size: 22px;
+	}
+
+	.img-circle {
+		visibility: hidden;
+	}
+
+	.text-content-welcome 	{
+		padding-top: 300px;
+		text-align: center;
+	}
+
+	.text-ketum {
+		visibility: hidden;
+	}
+
+	#div-hr-welcome {
+		display: flex;
+		justify-content: center;
+	}
+	/* ----- */
+}
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+	#h1-welcome {
+		font-weight: bold;
+		font-size: 30px;
+	}
+
+	#h2-welcome {
+		font-weight: bold;
+		font-size: 24px;
+	}
+
+	.about-paragraf {
+		font-size: 22px;
+	}
+
+	.sekilas-paragraf {
+		font-size: 22px;
+		text-align: center;
+	}
+
+	.text-content {
+		font-size: 10px;
+	}
+
+
+	#h3-footer {
+		text-align: center;
+	}
+
+	
+
+}
